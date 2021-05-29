@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML| CSS inline</title>
+    <style>
+        /* CSS selector ile istenen HTML elementine stillendirme yapılabilir */
+        /* Style tag'i ile yapılan stillendirmeler sadece bu dosya için geçerlidir
+        Eğer tümproje için stillendirme için harici bir .CSS dosyası oluşturulmalı ve
+        HTML'e import edilmeli */
+        *{
+            text-align: center;
+        }
+        /* '*' tüm stillendirmey */
+        h1{
+            color: green;
+            font-size: 25px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-top: 50px;
+        }
+        p{
+            color: blue;
+        }
+        #p1{
+            color: blueviolet;
+        }
+        .p2{
+            color: darkgoldenrod;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>TABLO EKLEME...</h1>
+    <h1>CSS stillendirme...</h1>
+    <!-- id bir Css selectordur ve tek bir elementi stillendirmek için kullanılır.
+    Stillendirmede id'ye erişmek için id önüne # kullanılır. -->
+    <p id="p1">Bu bir paragraftır..</p>
+    <!-- Class selectoru grup stillendirmesi için kullanılır.en yaygın kullanılan selectordur.Classs'a erişmek için öünüe '.'  kullanılır -->
+    <p class="p2">Bu da başka bir paragraftır...</p>
+    <p>CSS HTML'ye göre daha fazla detay içerir...</p>
+
+
+
+</body>
+</html>
